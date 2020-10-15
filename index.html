@@ -10,24 +10,33 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="response.css">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins">
     </head>
 <body>
     <div class='wrapper'>
-        <div class='nav-bar'>
+        <div class='nav-bar' id='myTopnav'>
             <ul class='logo' style='list-style-type: none;'><li>Dee's Delivery</li></ul>
-            <ul class='nav-links'>
-                <li style='list-style-type: none;'>Services</li>
-                <li style='list-style-type: none;'>Covered Areas</li>
-            </ul>
+            <div class='dropdown'>
+                
+                </button>
+                <div class='nav-links'>
+                    <a href='#'>Home</a>
+                    <a href='#'>Services</a>
+                    <a href='#'>Covered Areas</a>
+                </div>
+            </div>
+            
         </div>
         <div class='core-container'>
             <div class='introduction'>
                 <h1>Reliable Delivery.</h1>
                 <h2>Vurry Reliahbul</h2>
-                <button type='button'>Receive A Quote.</button>
+                <button onclick='thisfunc()' type='button'>Receive A Quote.</button>
             </div>
         </div>
         <div class='second-core-container'>
+          <div class='second-core-wrapper'>
             <div class='left-side-second-row'>
                 <p>
                     Lorem ipsum dolor sit amet 
@@ -46,12 +55,25 @@
             </div>
             <div class='right-side-second-row' id='nomobile'>
                 <div class='picture-container'>
-                    <img src="/Photos/tall-photo.jpg" style='height: 100%; width: 100%; '/>
+                     <img src="/Photos/tall-photo.jpg"  style='height: 450px; width: 550px; '/>
                 </div>
-                </div>
+            </div>
+          </div>
         </div>
-    </div>
+        <div class='third-core-container'>
+          <div class='boxes-container'>
+            <div class='box-one'>one</div>
+            <div class='box-two'>two</div>
+            <div class='box-three'>three</div>
+            <div class='box-four'>four</div>
+            <div class='box-five'>five</div>
+            <div class='box-six'>six</div>
+          </div>
+          <div>
+          <button class='button2' onclick='thisfunc()' type='button'>Receive A Quote.</button>
+        </div>
+        </div>
 </body>
 </html>
 
-<script src="context.js" async defer></script> 
+<script src="index.js" async defer></script> 

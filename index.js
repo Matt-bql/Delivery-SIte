@@ -1,3 +1,7 @@
+function thisfunc() {
+    alert('hello');
+}
+
 // If your object has any non-string properties,
 // JavaScript will automatically typecast them as strings.
 var anotherObject = {
@@ -37,3 +41,12 @@ if (varrr) {
     return 'naaaahhhoo';
 }
 }
+
+// function thisfunc() {
+//     var x = document.getElementById('myTopnav');
+//     if (x.className === 'nav-bar') {
+//         x.className += ' responsive';  
+//     } else {
+//         x.className = 'nav-bar';
+//     }
+// }
